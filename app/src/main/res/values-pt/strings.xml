@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="humidity">Umidade</string>
+    <string name="pressure">Pressão</string>
+    <string name="direction">Direção</string>
+    <string name="Speed">Velocidade</string>
+    <string name="wind">Vento</string>
+    <string name="places">Locais</string>
+    <string name="weather">Tempo</string>
+    <string name="places_placeholder_message">Para adicionar um local, por favor toque na ação \"Adicionar\".</string>
+    <string name="weather_placeholder_message">Por favor, selecione um local para exibir os detalhes de sua condição climática.</string>
+    <string name="alerts_placeholder_message">Para adicionar um alerta, por favor preencha os campos acima.</string>
+    <string name="action_add">Adicionar</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_update">Atualizar</string>
+    <string name="action_alerts">Alertas</string>
+    <string name="add_place_country_hint">BR</string>
+    <string name="add_place_place_hint">Local</string>
+    <string name="default_units">metric</string>
+    <string name="degress">ºC</string>
+    <string name="place_not_found">Local não encontrado</string>
+    <string name="last_update">Última atualização</string>
+    <string name="date_at">às</string>
+    <string name="wind_unit">nós</string>
+    <string name="alerts_value_hint">Valor</string>
+
+    <string name="condition_01">Céu limpo</string>
+    <string name="condition_02">Poucas nuvens</string>
+    <string name="condition_03">Nuvens esparsas</string>
+    <string name="condition_04">Nublado</string>
+    <string name="condition_09">Chuva fina</string>
+    <string name="condition_10">Chuva</string>
+    <string name="condition_11">Tempestade</string>
+    <string name="condition_13">Neve</string>
+    <string name="condition_50">Neblina</string>
+
+    <string name="place_exclude_confirmation">Deseja excluir este local?</string>
+    <string name="alert_exclude_confirmation">Deseja excluir este alerta?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="climate_alert">Alerta climático</string>
+</resources>

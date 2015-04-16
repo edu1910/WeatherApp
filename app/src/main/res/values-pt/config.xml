@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="wind_coefficient">194.384449%</fraction>
+
+    <string-array name="alerts_options_array">
+        <item>Temperatura</item>
+        <item>Umidade</item>
+        <item>Pressão</item>
+        <item>Vel. do vento</item>
+    </string-array>
+
+    <string-array name="alerts_conditions_array">
+        <item>&#60;</item>
+        <item>&#62;</item>
+    </string-array>
+</resources>

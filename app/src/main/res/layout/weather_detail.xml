@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:background="@color/dividerColor"
+                android:id="@+id/imgWeather"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp">
+                <TextView
+                    android:id="@+id/txCity"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:lines="2"
+                    android:gravity="bottom"/>
+                <TextView
+                    android:id="@+id/txTemperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textSize="50sp"
+                    android:singleLine="true"
+                    android:gravity="bottom"/>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/txWeather"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="10dp"
+                        style="@style/AppTheme.Title"/>
+
+                    <include
+                        android:id="@+id/layoutHumidity"
+                        layout="@layout/weather_item"/>
+
+                    <include
+                        android:id="@+id/layoutPressure"
+                        layout="@layout/weather_item"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wind"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        style="@style/AppTheme.Label"/>
+
+                    <View style="@style/AppTheme.Divider"/>
+
+                    <include
+                        android:id="@+id/layoutWindDirection"
+                        layout="@layout/weather_item"/>
+
+                    <include
+                        android:id="@+id/layoutWindSpeed"
+                        layout="@layout/weather_item"/>
+
+                    <View style="@style/AppTheme.Divider"/>
+
+                    <TextView
+                        android:id="@+id/txUpdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:textSize="12sp"
+                        android:layout_marginTop="5dp"
+                        style="@style/AppTheme.Label"/>
+
+                </LinearLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/placeholder" />
+
+</FrameLayout>

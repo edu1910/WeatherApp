@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="isTablet">false</bool>
+    <fraction name="wind_coefficient">1%</fraction>
+
+    <string-array name="alerts_options_array">
+        <item>Temperature</item>
+        <item>Humidity</item>
+        <item>Pressure</item>
+        <item>Wind speed</item>
+    </string-array>
+
+    <string-array name="alerts_conditions_array">
+        <item>&#60;</item>
+        <item>&#62;</item>
+    </string-array>
+</resources>
