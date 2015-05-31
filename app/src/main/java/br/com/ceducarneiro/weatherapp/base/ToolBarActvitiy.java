@@ -15,12 +15,14 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.Optional;
 
-public class ToolBarActvitiy extends ActionBarActivity {
+public class  ToolBarActvitiy extends ActionBarActivity {
 
-    @Optional @InjectView(R.id.loading)
+    @Optional
+    @InjectView(R.id.loading)
     protected View loading;
 
-    @Optional @InjectView(R.id.toolbar)
+    @Optional
+    @InjectView(R.id.toolbar)
     protected Toolbar toolbar;
 
     @Optional

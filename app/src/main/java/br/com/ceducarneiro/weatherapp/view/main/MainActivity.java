@@ -37,8 +37,9 @@ public class MainActivity extends ToolBarActvitiy implements PlacesFragment.Plac
 
     private static final int ADD_PLACE_REQUEST = 1;
 
-    @Optional @InjectView(R.id.pager)
-    ViewPager pager;
+    @Optional
+    @InjectView(R.id.pager)
+    protected ViewPager pager;
 
     private PlacesFragment placesFragment;
     private WeatherFragment weatherFragment;

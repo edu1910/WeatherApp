@@ -37,14 +37,13 @@ public class SyncService extends IntentService {
 
         OpenWeatherWS openWeatherWS = OpenWeatherWS.getInstance();
 
-
         List<Place> places = Place.listAll(Place.class);
 
         if (places.size() > 0) {
             List<Long> ids = new ArrayList<>();
 
             for (Place place : places) {
-                ids.add(place.getId());
+                ids.add(place.getOwId());
             }
 
             OpenWeatherList weathers = openWeatherWS.getWeatherByIds(WeatherApplication

@@ -1,6 +1,6 @@
 package br.com.ceducarneiro.weatherapp.ws;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.util.List;
 

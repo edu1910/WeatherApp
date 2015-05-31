@@ -2,7 +2,7 @@ package br.com.ceducarneiro.weatherapp.ws;
 
 import android.util.Log;
 
-import org.codehaus.jackson.map.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.net.URL;
 import java.net.URLEncoder;
