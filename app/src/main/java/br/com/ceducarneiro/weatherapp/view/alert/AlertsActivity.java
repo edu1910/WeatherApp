@@ -23,7 +23,7 @@ import br.com.ceducarneiro.weatherapp.model.bean.AlertOption;
 import butterknife.InjectView;
 import butterknife.OnItemLongClick;
 import butterknife.OnItemSelected;
-import br.com.ceducarneiro.weatherapp.base.ToolBarActvitiy;
+import br.com.ceducarneiro.weatherapp.view.base.ToolBarActvitiy;
 import br.com.ceducarneiro.weatherapp.model.bean.Alert;
 import br.com.ceducarneiro.weatherapp.model.bean.Place;
 

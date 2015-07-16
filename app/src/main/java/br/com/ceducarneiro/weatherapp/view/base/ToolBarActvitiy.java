@@ -1,6 +1,5 @@
-package br.com.ceducarneiro.weatherapp.base;
+package br.com.ceducarneiro.weatherapp.view.base;
 
-import android.content.res.Configuration;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.support.v4.app.NavUtils;

@@ -22,7 +22,7 @@ import br.com.ceducarneiro.weatherapp.model.bean.Place;
 import br.com.ceducarneiro.weatherapp.view.alert.AlertsActivity;
 import butterknife.InjectView;
 import butterknife.Optional;
-import br.com.ceducarneiro.weatherapp.base.ToolBarActvitiy;
+import br.com.ceducarneiro.weatherapp.view.base.ToolBarActvitiy;
 import br.com.ceducarneiro.weatherapp.controller.ListenerController;
 import br.com.ceducarneiro.weatherapp.service.SyncService;
 import br.com.ceducarneiro.weatherapp.view.places.AddPlaceActivity;

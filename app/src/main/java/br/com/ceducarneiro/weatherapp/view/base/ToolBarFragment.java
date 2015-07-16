@@ -1,4 +1,4 @@
-package br.com.ceducarneiro.weatherapp.base;
+package br.com.ceducarneiro.weatherapp.view.base;
 
 import android.support.v4.app.Fragment;
 import android.view.View;

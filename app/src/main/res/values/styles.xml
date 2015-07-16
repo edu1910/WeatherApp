@@ -2,31 +2,21 @@
 
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="actionBarStyle">@style/AppTheme.ToolBarStyle</item>
-        <item name="android:actionBarStyle">@style/AppTheme.ToolBarStyle</item>
-
         <item name="windowActionBar">false</item>
-        <item name="android:windowActionBar">false</item>
-
+        <item name="windowNoTitle">true</item>
         <item name="android:editTextStyle">@style/AppTheme.EditTextStyle</item>
-
-        <item name="android:searchViewStyle">@style/AppTheme.SearchViewStyle</item>
         <item name="searchViewStyle">@style/AppTheme.SearchViewStyle</item>
     </style>
 
-    <style name="AppTheme.DialogWhenLarge" parent="Base.Theme.AppCompat.DialogWhenLarge">
-        <item name="android:actionBarStyle">@style/AppTheme.ToolBarStyle</item>
+    <style name="AppTheme.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.DialogWhenLarge">
         <item name="actionBarStyle">@style/AppTheme.ToolBarStyle</item>
-
         <item name="windowActionBar">false</item>
-        <item name="android:windowActionBar">false</item>
-
+        <item name="windowNoTitle">true</item>
         <item name="android:windowBackground">@android:color/white</item>
-
         <item name="android:editTextStyle">@style/AppTheme.EditTextStyle</item>
     </style>
 
     <style name="AppTheme.SearchViewStyle" parent="Widget.AppCompat.Light.SearchView">
-        <item name="android:queryBackground">@drawable/textfield_background</item>
         <item name="queryBackground">@drawable/textfield_background</item>
     </style>
 
@@ -39,7 +29,6 @@
     </style>
 
     <style name="AppTheme.ToolBarStyle">
-        <item name="android:windowActionBarOverlay">true</item>
         <item name="windowActionBarOverlay">true</item>
 
         <item name="android:textColorPrimary">@android:color/white</item>

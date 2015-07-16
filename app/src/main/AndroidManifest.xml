@@ -61,7 +61,7 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="your-google-api-key"/>
+            android:value="AIzaSyB6Dc9YLrB7rzjL6GvhL1nINjVGjzFYYa8"/>
 
         <meta-data android:name="DATABASE" android:value="weatherapp.db" />
         <meta-data android:name="VERSION" android:value="1" />
@@ -70,7 +70,7 @@
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="your-fabric-api-key" />
+            android:value="3164fe3bfab0695ca151d73fdc5004eb42cc8395" />
     </application>
 
 </manifest>

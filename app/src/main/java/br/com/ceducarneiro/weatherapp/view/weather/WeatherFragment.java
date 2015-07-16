@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 
 import br.com.ceducarneiro.weatherapp.R;
-import br.com.ceducarneiro.weatherapp.base.ToolBarFragment;
+import br.com.ceducarneiro.weatherapp.view.base.ToolBarFragment;
 import br.com.ceducarneiro.weatherapp.model.bean.Place;
 import butterknife.ButterKnife;
 import butterknife.InjectView;

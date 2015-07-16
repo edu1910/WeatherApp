@@ -25,7 +25,7 @@ import br.com.ceducarneiro.weatherapp.R;
 import br.com.ceducarneiro.weatherapp.controller.WeatherListener;
 import br.com.ceducarneiro.weatherapp.ws.OpenWeather;
 import butterknife.InjectView;
-import br.com.ceducarneiro.weatherapp.base.ToolBarActvitiy;
+import br.com.ceducarneiro.weatherapp.view.base.ToolBarActvitiy;
 import br.com.ceducarneiro.weatherapp.controller.ListenerController;
 import br.com.ceducarneiro.weatherapp.controller.WeatherController;
 
